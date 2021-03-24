@@ -1,16 +1,16 @@
 {
-    "name": ":vendor_name/:package_name",
-    "description": ":package_description",
+    "name": "michaelchora/laravel-headless-blog",
+    "description": "laravel-headless-blog",
     "keywords": [
-        ":vendor_name",
-        ":package_name"
+        "michaelchora",
+        "laravel-headless-blog"
     ],
-    "homepage": "https://github.com/:vendor_name/:package_name",
+    "homepage": "https://github.com/michaelchora/laravel-headless-blog",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
+            "name": "Michael Chora",
+            "email": "michael.chora@gmail.com",
             "role": "Developer"
         }
     ],
@@ -29,13 +29,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Skeleton\\": "src",
-            "Spatie\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Michaelchora\\LaravelHeadlessBlog\\": "src",
+            "Michaelchora\\LaravelHeadlessBlog\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Skeleton\\Tests\\": "tests"
+            "Michaelchora\\LaravelHeadlessBlog\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -49,10 +49,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Spatie\\Skeleton\\SkeletonServiceProvider"
+                "Michaelchora\\LaravelHeadlessBlog\\LaravelHeadlessBlogServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "Spatie\\Skeleton\\SkeletonFacade"
+                "LaravelHeadlessBlog": "Michaelchora\\LaravelHeadlessBlog\\LaravelHeadlessBlogFacade"
             }
         }
     },
