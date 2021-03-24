@@ -2,9 +2,9 @@
 
 namespace Michaelchora\LaravelHeadlessBlog;
 
+use Michaelchora\LaravelHeadlessBlog\Commands\LaravelHeadlessBlogCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Michaelchora\LaravelHeadlessBlog\Commands\LaravelHeadlessBlogCommand;
 
 class LaravelHeadlessBlogServiceProvider extends PackageServiceProvider
 {

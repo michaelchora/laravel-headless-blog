@@ -3,8 +3,8 @@
 namespace Michaelchora\LaravelHeadlessBlog\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Orchestra\Testbench\TestCase as Orchestra;
 use Michaelchora\LaravelHeadlessBlog\LaravelHeadlessBlogServiceProvider;
+use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
 {
